@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="short icon" href="img/1.jpg">
+    <link rel="stylesheet" href="col.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row between">
+                <div class="logo "> <h2>Portfolio</h2> </div>
+                <ul class="row menyu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACTS</a></li>
+                </ul>
+                <div class="menu">
+                    <i class="bx bx-menu" onclick="menyu()"></i>
+                        <i class="bx bx-x" onclick="menyu()"></i>
+                </div>
+
+                <ul class="contactbtn row">
+                    <li><a href="#"><i class="bx bxl-telegram"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                </ul>
+            </div>
+            <div class="media-menu">
+                <ul class="column me-menyu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACTS</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div id="home">
+        <div class="container">
+            <div class="img"><img src="img/1.jpg" alt="img"></div> 
+                <div class="home-title">
+                    <p>Welcome</p>
+                    <h1>I'm QOBULOV ASROR,<br> a Web Developer</h1>
+                    <a href="#about"><div class="btn"> More</div></a>
+                </div>
+                <div class="but-icon"><i class="bx bxs-chevron-up"></i></div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <span>About Me</span>
+            <div class="row">
+                <div class="left">
+                    <h2>I'm <i>Qobulov Asror</i> , a Web Developer</h2>
+                    <p>I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p>Delivering work within time and budget which meets client’s requirements is our moto. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley. Lisque persius interesset in quot quidam possim iriure.</p>
+                </div>
+                <ul>
+                    <li><b>Name: </b>Qobulov Asror</li>
+                    <hr>
+                    <li><b>Email: </b><a href="#">qobulovasror0@gmail.com</a></li>
+                    <hr>
+                    <li><b>Age: </b>20</li>
+                    <hr>
+                    <li><b>From: </b>Samarkand ,Uzbekistan</li>
+                    <hr>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <span>Services</span>
+            <div class="row">
+                <div class="item">
+                    <i class="bx bxl-dev-to"></i>
+                    <h3>Frond-Ent Devoloder</h3>
+                    <p>i have been developing front-end programming</p>
+                    <div class="btn"><a href="#">More</a></div>
+                </div>
+                <div class="item">
+                    <i class="bx bx-globe"></i>
+                    <h3>Web Application</h3>
+                    <p>i also make web applications</p>
+                    <div class="btn"><a href="#">More</a></div>
+                </div>
+                <div class="item">
+                    <i class="bx bxl-c-plus-plus"></i>
+                    <h3>C++ Coder</h3>
+                    <p>usura a computer progressio est a programming lingua c scribens</p>
+                    <div class="btn"><a href="#">More</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skill">
+        <div class="container">
+            <span>My Skills</span>
+            <div class="rowtrans">
+                <i class="bx bxs-left-arrow-alt" onclick="rowtr(this)"></i>
+                <i class="bx bxs-right-arrow-alt" onclick="rowtr(this)"></i>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="itembg">
+                        <i class="bx bxl-c-plus-plus"></i>
+                        <h3>C++</h3>
+                    </div>
+                   
+                </div>
+                <div class="item">
+                    <i class="bx bxl-html5"></i>
+                    <h3>Html</h3>
+                </div>
+                <div class="item">
+                    <i class="bx bxl-css3"></i>
+                    <h3>Css</h3>
+                </div>
+                <div class="item">
+                    <i class="bx bxl-javascript"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="item">
+                    <i class="bx bxl-bootstrap"></i>
+                    <h3>Bootstrap</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills">
+        <div class="container row">
+            <div class="column">
+            <p>HTML</p>
+            <div class="progress"><div class="progress-html"><div class="progress-all"></div></div></div>
+            <p>Css</p>
+            <div class="progress"><div class="progress-css"><div class="progress-all"></div></div></div>
+            <p>JavaScript</p>
+            <div class="progress"><div class="progress-js"><div class="progress-all"></div></div></div>
+           
+            </div>
+            <div class="column">
+                <p>C++</p>
+                <div class="progress"><div class="progress-cpp"><div class="progress-all"></div></div></div>
+                <p>Bootstrap</p>
+                <div class="progress"><div class="progress-boot"><div class="progress-all"></div></div></div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <span>Portfolio</span>
+            <div class="row wrap center">
+                <div class="item">
+                    <img src="soursimg/1.jpg" class="img1" onclick="portimg(this)" alt="port-img">
+                </div>
+                <div class="item">
+                    <img src="soursimg/2.jpg" class="img2" onclick="portimg(this)" alt="port-img">
+                </div>
+                <div class="item">
+                    <img src="soursimg/3.jpg" class="img3" onclick="portimg(this)" alt="port-img">
+                </div>
+            </div>
+        </div>
+        <div class="portf-img" onclick="cancel()">
+            <div class="img"><img class="portfimg1" src="soursimg/1.jpg" alt="img"></div>
+            <div class="img"><img class="portfimg2" src="soursimg/2.jpg" alt="img"></div>
+            <div class="img"><img class="portfimg3" src="soursimg/3.jpg" alt="img"></div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="item">
+                    <h3>Adress</h3>
+                    <ul>
+                        <li>Uzbekistan Samarqand </li>
+                        <li><b>Tell:</b>(93) 358 28 27</li>
+                        <li><b>Tell:</b>(93) 724 92 03</li>
+                        <li><b>Gmail:</b>qobulovasror0@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Mesengin</h3>
+                    <ul><a href="#"><b>Telegram:</b>Qobulov_A</a></ul>
+                    <li><a href="#"><b>facebook:</b>qobulovasror</a></li>
+                    <li><a href="#"><b>instagram:</b>Kabulov_dev</a></li>
+                </div>
+                <div class="item">
+                    <h3>SEND US A NOTE</h3>
+                    <div class="row">
+                        <input type="text" placeholder="NAME...">
+                        <input type="email" placeholder="YOU EMAIL">
+                    </div>
+                    <textarea name="text" placeholder="Tell us more about your needs........"></textarea>
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="">
+                <p>© 2021 Samarqand</p>
+            </div>
+        </div>
+    </footer>
+     <div class="top">
+       <a href="#"> <i class="bx bxs-chevron-up"></i></a>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
