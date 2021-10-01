@@ -75,7 +75,7 @@ header ul li a{
 #home {
     position: relative;
     /* background-color: #000; */
-    background-image: url('./img/homebg.jpg');
+    background-image: url('homebg.jpg');
     background-size: cover;
     background-position: center;
     height: 88vh;
@@ -227,16 +227,16 @@ span {
     height: 400px;
     color: #fff;
     background-color: #ccc;
-    background-image: url("./img/3.jpg");
+    background-image: url("3.jpg");
     background-size: cover;
     opacity: 0.9;
     overflow: hidden;
 }
 #services .item:nth-child(2){
-    background-image: url("./img/2.jpg");
+    background-image: url("2.jpg");
 }
 #services .item:nth-child(3){
-    background-image: url("./img/4.jpg");
+    background-image: url("4.jpg");
 }
 #services .item:hover {
     box-shadow: 0 0 7px #000;
