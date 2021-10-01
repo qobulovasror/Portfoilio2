@@ -5,11 +5,19 @@ body {
     width: 90%;
     overflow: hidden;
 }
+.header1 {
+    height: 70px;
+    width: 100%;
+}
 header {
     height: 70px;
+    width: 100%;
+    top: 0;
     background-color: #000;
-    color:#fff;
+    color: #fff;
     padding: 25px 0;
+    position: fixed;
+    z-index: 120;
 }
 header ul li {
     margin: 0 15px;
@@ -94,11 +102,11 @@ header ul li a{
 .home-title {
     overflow: hidden;
     position: relative;
-    top: 40%;
+    top: 30%;
     transform: translate(0,45%);
     width: 500px;
     left: 5%;
-    height: 350px;
+    height: 396px;
 }
 .home-title p{
     font-size: 30px;
